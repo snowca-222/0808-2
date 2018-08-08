@@ -1,0 +1,29 @@
+https://hackmd.io/s/H1MpmtxQf
+#分支
+查詢分支
+git branch
+
+新增分支
+git branch apple
+
+切換分支
+git checkout apple
+
+還原到最近一次commit狀態
+git checkout apple.html
+
+合併分支
+git merge apple
+
+git log --oneline 
+
+忽略
+touch .gitignore
+在.gitignore檔案裡面加入要被忽略的文件名稱
+
+git tag 查詢tag 資料
+git tag "名稱" (例如1.0.0)
+git push origin master --tags (就會把tag內容push上去)
+
+把新的物件拉下來合併
+git pull master 
